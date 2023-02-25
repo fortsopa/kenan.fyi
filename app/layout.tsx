@@ -26,7 +26,7 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div className=' mt-1 py-1  text-center text-slate-700'>
-        <p className='animate-typing overflow-hidden whitespace-nowrap text-gray-700 italic pb-10 text-2xl'>
+        <p className='animate-typing overflow-hidden whitespace-nowrap text-gray-700 italic pb-10 text-1xl'>
           droppings from my second brain...
         </p>
         <h3> Under Construction for a while.</h3>

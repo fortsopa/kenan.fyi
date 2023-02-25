@@ -8,22 +8,25 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className='text-center bg-slate-800 p-8 my-6 rounded-md'>
+      <div className='text-center  p-8 my-6 rounded-md'>
         <Link href='/'>
-          <h1 className='text-3xl font-bold text-white'>kenan.fyi</h1>
+          <h1 className='text-3xl font-bold text-slate-600'>kenan.fyi</h1>
         </Link>
-        <p className='text-slate-300'>droppings from my second brain</p>
+        <p className='text-gray-800'>droppings from my second brain</p>
       </div>
     </header>
   );
 
   const footer = (
     <footer>
-      <div className=' mt-6 py-6 text-center text-slate-400'>
+      <div className=' mt-6 py-6  text-center text-slate-700'>
         <h3> Under Construction for a while.</h3>
         <p>
           Reach me out
-          <Link href='https://twitter.com/kenanFyi'> @kenanFyi</Link>
+          <Link href='https://twitter.com/kenanFyi' className='text-sky-800'>
+            {" "}
+            @kenanFyi
+          </Link>
         </p>
       </div>
     </footer>
@@ -32,8 +35,8 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
-        <div className='mx-auto max-w-2xl px-6'>
+      <body className='bg-eigen'>
+        <div className='h-screen flex flex-col justify-center items-center mx-auto'>
           {header}
           {/* {children} */}
           {footer}

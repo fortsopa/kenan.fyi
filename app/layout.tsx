@@ -1,7 +1,6 @@
 import Link from "next/link";
 import "../styles/globals.css";
 import { Noto_Serif } from "@next/font/google";
-import Typical from "react-typical";
 
 const notoSerif = Noto_Serif({
   subsets: ["latin"],

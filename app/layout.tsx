@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   const header = (
     <header>
-      <div className='text-center  p-8 my-6 rounded-md'>
+      <div className='text-center  p-1 my-1 rounded-md'>
         <Link href='/'>
           <h1 className='text-3xl font-bold text-slate-600'>kenan.fyi</h1>
         </Link>
@@ -19,7 +19,7 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className=' mt-6 py-6  text-center text-slate-700'>
+      <div className=' mt-1 py-1  text-center text-slate-700'>
         <h3> Under Construction for a while.</h3>
         <p>
           Reach me out
